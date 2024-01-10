@@ -9,6 +9,6 @@ def fibonacci_sequence(n):
         return fibonacci_sequence(n - 1) + fibonacci_sequence(n - 2)
 
 def main():
-    print(fibonacci_sequence(3))
+    print(fibonacci_sequence(int(input())))
 
 main()
