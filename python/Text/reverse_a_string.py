@@ -8,9 +8,8 @@ class ReverseAString:
         newString = s[::-1]
         return newString
 
-def test():
-    pass
+def main():
+    rev_str = ReverseAString()
+    print(rev_str.reverse_string(input("Type string to be reversed: ")))
 
-rev_str = ReverseAString()
-
-print(rev_str.reverse_string(input("Type string to be reversed: ")))
+main()
